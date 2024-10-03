@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="img/js.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <nav class="brand">
+                        <h2>JS</h2>
+                    </nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">Quien soy</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main container-fluid">
+            <section class="row align-items-center">
+                <section class="info_content col-12 col-md-6">
+                    <h1>I'm Julian Samboni</h1>
+                    <p>Un programador y diseñador web apasionado por crear experiencias digitales que combinan funcionalidad y diseño atractivo. Disfruto trabajando en proyectos donde puedo aplicar tanto mis habilidades técnicas como mi sentido estético para desarrollar sitios web que no solo sean eficientes y rápidos, sino también visualmente impactantes y fáciles de usar. Siempre busco el equilibrio perfecto entre lo práctico y lo creativo, adaptando cada solución a las necesidades únicas del proyecto.</p>
+                    <a href="#">
+                        <button class="download- btn btn-primary">Download</button>
+                    </a>
+                </section>
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <img src="img/person.jpg" alt="persona" class="img-fluid rounded w-75 h-auto border border-info border-3">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    
+    <main class="about container-fluid ">
+        <img src="img/person1.jpg" alt="persona1" >
+       
+        <section class="about-info col-12 col-md-6 row">
+        <h2 id="about">About me</h2>
+        <section class="divider row"></section>
+        <p>Soy un estudiante de diseño web con una fuerte pasión por la creación de sitios web bien estructurados y funcionales. Actualmente, me enfoco en el uso de HTML y CSS para desarrollar páginas web con una programación semántica que asegura accesibilidad y una experiencia de usuario intuitiva.</p>
+        <p>Mis proyectos actuales incluyen el diseño de una página web personal y el desarrollo de prototipos de interfaces para aplicaciones web. Mi objetivo es seguir mejorando mis habilidades y aplicar los principios de diseño web para crear soluciones digitales innovadoras y efectivas.</p>
+        <a href="aboutme.html" target="_blank">
+            <button   class="download- btn btn-outline-primary row" >Read more</button>
+         </a>
+        </section>
+    </main>
+    
+    <main class="portfolio ">
+        <section class="portfolio-headings">
+            <h2 id="portafolio">My portfolio</h2>
+        </section>
+        
+        <section class="row justify-content-center">
+            <section class="card col-12 col-sm-6 col-md-4">
+                <section class="card-img"></section>
+                <section class="card-title">
+                    <h2>Project Description</h2>
+                </section>
+                <section class="project-liks">
+                    <a href="https://github.com/Nextron17" target="_blank">
+                        <i class="fab fa-github"></i> 
+                    </a>
+                    <a href="proyecto.html" target="_blank">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </section>
+                <div class="proyect-details-content">
+                    <button class="project-details download- btn btn-outline-primary">
+                        <a href="">Project details</a>
+                    </button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <main class="contact-section ">
+        <section class="contact-headings text-center">
+            <h2 id="contacto">Keep in touch</h2>
+        </section>
+        
+        <section class="row">
+            <img src="img/person3.jpg" alt="persona3" class="col-12 col-md-6">
+            <section class="contact-form col-12 col-md-6">
+                <h3>Send me a message</h3>
+                <form class="form">
+                    <input type="text" placeholder="name" class="form-control mb-2">
+                    <input type="email" placeholder="email" class="form-control mb-2">
+                    <textarea placeholder="place your message here..." class="form-control mb-2"></textarea>
+                    <button class="btn-submit btn btn-primary">Send message</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    
+    <footer class="footer text-center">
+        <section class="footer-content">
+            <h2>Julian Samboni</h2>
+            <h5>Frontend Developer</h5>
+        </section>
+        <section class="sotial-networks d-flex justify-content-center mt-3">
+            <i class="fab fa-instagram mx-2"></i>
+            <i class="fab fa-tiktok mx-2"></i>
+            <i class="fa-solid fa-x mx-2"></i>
+        </section>
+    </footer>
+    <script src="js/bootstrap.js">l</script>
+</body>
+</html>
